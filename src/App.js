@@ -22,8 +22,9 @@ const searchLocation = () =>{
 
   return (
     <div className="app">
+    <h2 style={{textAlign:'center',fontSize:'26px'}}>React JS Weather application</h2>
       <div className="search">
-        <input
+        <input style={{marginTop:'22px'}}
           value={location}
           onChange={event => setLocation(event.target.value)}
           placeholder='Enter Location'
@@ -34,7 +35,7 @@ const searchLocation = () =>{
 
           </button>
       </div>
-      <div className='container'>
+      <div className='container' style={{marginTop:'45px'}}>
         <div className='top'>
           <div className='location'>
             <p>{data.name}</p>
