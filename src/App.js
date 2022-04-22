@@ -27,7 +27,7 @@ const searchLocation = () =>{
         <input style={{marginTop:'22px'}}
           value={location}
           onChange={event => setLocation(event.target.value)}
-          placeholder='Enter Location'
+          placeholder='Enter your city name'
           type="text" />
         <button type='button' style={{ marginLeft: '10px', width: '100px', height: '50px', borderRadius: '20px', background: 'rgb(169, 169, 169)',color:'black'}} onClick={searchLocation}>
 
